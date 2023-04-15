@@ -2,9 +2,9 @@ const BLOG = {
   title: 'sailfish blog',
   author: 'sailfish',
   email: 'sailfishcc@gmail.com',
-  link: 'https://sailfishcc.com',
+  link: 'https://blog.sailfishc.com',
   newsletter: '技术两三事',
-  description: 'A static blog build on top of Notion and Next.js',
+  description: '橙子的技术博客',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
