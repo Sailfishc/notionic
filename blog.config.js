@@ -2,7 +2,7 @@ const BLOG = {
   title: 'sailfish blog',
   author: 'sailfish',
   email: 'sailfishcc@gmail.com',
-  link: 'https://zuolan.me',
+  link: 'https://sailfishcc.com',
   newsletter: '技术两三事',
   description: 'A static blog build on top of Notion and Next.js',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
@@ -16,14 +16,14 @@ const BLOG = {
   postsPerPage: 10,
   sortByDate: true,
   pagesShow: {
-    newsletter: true,
+    newsletter: false,
     notes: true,
     projects: true,
     contact: true,
     books: true,
     friends: true
   },
-  showWeChatPay: true,
+  showWeChatPay: false,
   previewImagesEnabled: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
