@@ -47,7 +47,7 @@ const BLOG = {
   telegramChannelName: '', // The name of your Telegram channel
   craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
   analytics: {
-    provider: '', // Currently we support Google Analytics, Ackee, Umami and Cloudflare Insights, please fill with 'ga' or 'ackee' or 'umami' or 'cf', leave it empty to disable it.
+    provider: 'umami', // Currently we support Google Analytics, Ackee, Umami and Cloudflare Insights, please fill with 'ga' or 'ackee' or 'umami' or 'cf', leave it empty to disable it.
     ackeeConfig: {
       tracker: '', // e.g 'https://ackee.example.com/tracker.js'
       dataAckeeServer: '', // e.g https://ackee.example.com , don't end with a slash
@@ -61,8 +61,8 @@ const BLOG = {
       measurementId: 'G-X6THEGQ7NL' // e.g: G-XXXXXXXXXX
     },
     umamiConfig: {
-      scriptUrl: '', // The url of your Umami script
-      websiteId: '' // The website id of your Umami instance
+      scriptUrl: 'https://us.umami.is/script.js', // The url of your Umami script
+      websiteId: 'c1aea2dd-ebca-4abc-9936-edb84db0d0a7' // The website id of your Umami instance
     }
   },
   comment: {
