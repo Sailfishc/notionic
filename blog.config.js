@@ -3,7 +3,7 @@ const BLOG = {
   author: 'sailfish',
   email: 'sailfishcc@gmail.com',
   link: 'https://blog.sailfishc.com',
-  newsletter: '技术两三事',
+  newsletter: '日常记录',
   description: '橙子的技术博客',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
@@ -16,7 +16,7 @@ const BLOG = {
   postsPerPage: 10,
   sortByDate: true,
   pagesShow: {
-    newsletter: false,
+    newsletter: true,
     notes: true,
     projects: true,
     contact: true,
@@ -45,7 +45,7 @@ const BLOG = {
   telegramChatId: '', // The chat id of your Telegram bot
   telegramChannelUrl: '', // The link of your Telegram channel
   telegramChannelName: '', // The name of your Telegram channel
-  craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
+  craftConfigShareUrl: 'https://dryers-deny-zhx.craft.me/shortIdea', // The link to share your craft config
   analytics: {
     provider: 'umami', // Currently we support Google Analytics, Ackee, Umami and Cloudflare Insights, please fill with 'ga' or 'ackee' or 'umami' or 'cf', leave it empty to disable it.
     ackeeConfig: {
